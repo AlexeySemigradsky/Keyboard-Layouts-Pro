@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.semigradsky.keyboardlayout.modernized</string>
+    <key>CFBundleName</key>
+    <string>Modernized Keyboard Layouts</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>KLInfo_Modernized English</key>
+    <dict>
+      <key>TISInputSourceID</key>
+      <string>com.semigradsky.keyboardlayout.modernized-english</string>
+      <key>TISIntendedLanguage</key>
+      <string>en-US</string>
+    </dict>
+    <key>KLInfo_Modernized Russian</key>
+    <dict>
+      <key>TISInputSourceID</key>
+      <string>com.semigradsky.keyboardlayout.modernized-russian</string>
+      <key>TISIntendedLanguage</key>
+      <string>ru-RU</string>
+      <key>TISCapsLockIsSwitch</key>
+      <true />
+    </dict>
+  </dict>
+</plist>
