@@ -1,3 +1,5 @@
 # Installation
 
-Copy `Keyboard Layouts Pro.bundle` to `~/Library/Keyboard Layouts`
+```
+cp -R Keyboard\ Layouts\ Pro.bundle ~/Library/Keyboard\ Layouts/
+```
