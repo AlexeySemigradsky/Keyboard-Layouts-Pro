@@ -22,7 +22,7 @@
       <key>TISIntendedLanguage</key>
       <string>ru-RU</string>
       <key>TICapsLockLanguageSwitchCapable</key>
- 		  <true/>
+      <true/>
     </dict>
   </dict>
 </plist>
