@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>CFBundleIdentifier</key>
-    <string>com.semigradsky.keyboardlayout.pro</string>
+    <string>dev.grad.kl.pro</string>
     <key>CFBundleName</key>
     <string>Keyboard Layouts Pro</string>
     <key>CFBundleVersion</key>
@@ -11,14 +11,14 @@
     <key>KLInfo_English Pro</key>
     <dict>
       <key>TISInputSourceID</key>
-      <string>com.semigradsky.keyboardlayout.english-pro</string>
+      <string>dev.grad.kl.en</string>
       <key>TISIntendedLanguage</key>
       <string>en-US</string>
     </dict>
     <key>KLInfo_Russian Pro</key>
     <dict>
       <key>TISInputSourceID</key>
-      <string>com.semigradsky.keyboardlayout.russian-pro</string>
+      <string>dev.grad.kl.ru</string>
       <key>TISIntendedLanguage</key>
       <string>ru-RU</string>
       <key>TICapsLockLanguageSwitchCapable</key>
