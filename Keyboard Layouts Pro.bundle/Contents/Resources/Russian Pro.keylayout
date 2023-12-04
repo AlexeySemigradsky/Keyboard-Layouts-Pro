@@ -419,7 +419,7 @@
       <key code="32" action="ѵ" />
       <key code="33" output="[" />
       <key code="34" action="і" />
-      <key code="35" output="´" />
+      <key code="35" output="′" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="”" />
       <key code="38" output="„" />
@@ -497,10 +497,10 @@
     </keyMap>
     <keyMap index="4">
       <key code="0" output="⌘" />
-      <key code="1" output="" />
+      <key code="1" output="⇧" />
       <key code="2" output="⌀" />
       <key code="3" output="" />
-      <key code="4" output="" />
+      <key code="4" action="double-acute" />
       <key code="5" output="" />
       <key code="6" action="cedilla" />
       <key code="7" output="·" />
@@ -509,11 +509,11 @@
       <key code="10" action="±" />
       <key code="11" output="ẞ" />
       <key code="12" action="" />
-      <key code="13" output="" />
-      <key code="14" output="" />
+      <key code="13" output="⌃" />
+      <key code="14" output="⌥" />
       <key code="15" action="ring" />
       <key code="16" action="Ѣ" />
-      <key code="17" output="" />
+      <key code="17" output="#" />
       <key code="18" output="¡" />
       <key code="19" output="¹⁄₂" />
       <key code="20" output="¹⁄₃" />
@@ -521,17 +521,17 @@
       <key code="22" action=" 3" />
       <key code="23" output="" />
       <key code="24" output="±" />
-      <key code="25" output="〈" />
+      <key code="25" output="‹" />
       <key code="26" output="¿" />
       <key code="27" output="–" />
       <key code="28" output="" />
-      <key code="29" output="〉" />
+      <key code="29" output="›" />
       <key code="30" output="}" />
       <key code="31" action="Ѳ" />
       <key code="32" action="Ѵ" />
       <key code="33" output="{" />
       <key code="34" action="І" />
-      <key code="35" output="˝" />
+      <key code="35" output="″" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="’" />
       <key code="38" output="" />
@@ -870,10 +870,7 @@
       <key code="35" output="&#x0010;" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="&#x000C;" />
-      <key
-        code="38"
-        output="&#x000A;"
-      />
+      <key code="38" output="&#x000A;" />
       <key code="39" output="&#x0027;" />
       <key code="40" output="&#x000B;" />
       <key code="41" output=";" />
@@ -1312,6 +1309,7 @@
       <when state="none" output="у" />
       <when state="breve" output="ў" />
       <when state="diaeresis" output="ÿ" />
+      <when state="double-acute" output="ӳ" />
     </action>
     <action id="15">
       <when state="none" output="ш" />
@@ -1337,6 +1335,7 @@
       <when state="cedilla" output="¸" />
       <when state="circumflex" output="ˆ" />
       <when state="diaeresis" output="¨" />
+      <when state="double-acute" output="˝" />
       <when state="grave" output="`" />
       <when state="ring" output="˚" />
       <when state="tilde" output="˜" />
@@ -1348,6 +1347,7 @@
       <when state="none" output="У" />
       <when state="breve" output="Ў" />
       <when state="diaeresis" output="Ӱ" />
+      <when state="double-acute" output="Ӳ" />
     </action>
     <action id="8">
       <when state="none" output="Ш" />
@@ -1362,6 +1362,10 @@
     <action id="cedilla">
       <when state="none" next="cedilla" />
       <when state="cedilla" output="̧" />
+    </action>
+    <action id="double-acute">
+      <when state="none" next="double-acute" />
+      <when state="double-acute" output="̋" />
     </action>
     <action id="ring">
       <when state="none" next="ring" />
@@ -1416,6 +1420,7 @@
     </action>
     <action id="З">
       <when state="none" output="З" />
+      <when state="cedilla" output="Ҙ" />
       <when state="diaeresis" output="Ӟ" />
     </action>
     <action id="И">
@@ -1452,6 +1457,7 @@
     </action>
     <action id="С">
       <when state="none" output="С" />
+      <when state="cedilla" output="Ҫ" />
     </action>
     <action id="Х">
       <when state="none" output="Х" />
@@ -1510,6 +1516,7 @@
     </action>
     <action id="з">
       <when state="none" output="з" />
+      <when state="cedilla" output="ҙ" />
       <when state="diaeresis" output="ӟ" />
     </action>
     <action id="и">
@@ -1546,6 +1553,7 @@
     </action>
     <action id="с">
       <when state="none" output="с" />
+      <when state="cedilla" output="ҫ" />
     </action>
     <action id="х">
       <when state="none" output="х" />
@@ -1621,6 +1629,7 @@
     <when state="cedilla" output="¸" />
     <when state="circumflex" output="ˆ" />
     <when state="diaeresis" output="¨" />
+    <when state="double-acute" output="˝" />
     <when state="grave" output="`" />
     <when state="ring" output="˚" />
     <when state="tilde" output="˜" />

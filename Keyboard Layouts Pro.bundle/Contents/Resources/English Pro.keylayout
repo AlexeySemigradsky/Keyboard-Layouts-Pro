@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="0" id="151" name="English Pro" maxout="3">
+<keyboard group="126" id="-9876" name="English Pro" maxout="3">
   <layouts>
     <layout first="0" last="17" mapSet="16c" modifiers="f4" />
     <layout first="18" last="18" mapSet="994" modifiers="f4" />
@@ -95,7 +95,7 @@
       <key code="47" output="." />
       <key code="48" output="&#x0009;" />
       <key code="49" action="5" />
-      <key code="50" output="\" />
+      <key code="50" output="`" />
       <key code="51" output="&#x0008;" />
       <key code="52" output="&#x0003;" />
       <key code="53" output="&#x001B;" />
@@ -416,7 +416,7 @@
       <key code="32" output="ѵ" />
       <key code="33" output="[" />
       <key code="34" output="і" />
-      <key code="35" output="´" />
+      <key code="35" output="′" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="”" />
       <key code="38" output="„" />
@@ -494,10 +494,10 @@
     </keyMap>
     <keyMap index="4">
       <key code="0" output="⌘" />
-      <key code="1" output="" />
+      <key code="1" output="⇧" />
       <key code="2" output="⌀" />
       <key code="3" output="" />
-      <key code="4" output="" />
+      <key code="4" action="double-acute" />
       <key code="5" output="" />
       <key code="6" action="cedilla" />
       <key code="7" output="·" />
@@ -506,11 +506,11 @@
       <key code="10" action="±" />
       <key code="11" output="ẞ" />
       <key code="12" action="" />
-      <key code="13" output="" />
+      <key code="13" output="⌃" />
       <key code="14" action="action" />
       <key code="15" action="ring" />
       <key code="16" output="Ѣ" />
-      <key code="17" output="" />
+      <key code="17" output="#" />
       <key code="18" output="¡" />
       <key code="19" output="¹⁄₂" />
       <key code="20" output="¹⁄₃" />
@@ -518,17 +518,17 @@
       <key code="22" action=" 3" />
       <key code="23" output="" />
       <key code="24" output="±" />
-      <key code="25" output="〈" />
+      <key code="25" output="‹" />
       <key code="26" output="¿" />
       <key code="27" output="–" />
       <key code="28" output="" />
-      <key code="29" output="〉" />
+      <key code="29" output="›" />
       <key code="30" output="}" />
       <key code="31" output="Ѳ" />
       <key code="32" output="Ѵ" />
       <key code="33" output="{" />
       <key code="34" output="І" />
-      <key code="35" output="˝" />
+      <key code="35" output="″" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="’" />
       <key code="38" output="" />
@@ -867,10 +867,7 @@
       <key code="35" output="&#x0010;" />
       <key code="36" output="&#x000D;" />
       <key code="37" output="&#x000C;" />
-      <key
-        code="38"
-        output="&#x000A;"
-      />
+      <key code="38" output="&#x000A;" />
       <key code="39" output="&#x0027;" />
       <key code="40" output="&#x000B;" />
       <key code="41" output=";" />
@@ -1176,6 +1173,7 @@
       <when state="caron" output="Ǒ" />
       <when state="circumflex" output="Ô" />
       <when state="diaeresis" output="Ö" />
+      <when state="double-acute" output="Ő" />
       <when state="grave" output="Ò" />
       <when state="tilde" output="Õ" />
     </action>
@@ -1187,6 +1185,7 @@
       <when state="caron" output="Ǔ" />
       <when state="circumflex" output="Û" />
       <when state="diaeresis" output="Ü" />
+      <when state="double-acute" output="Ű" />
       <when state="grave" output="Ù" />
       <when state="ring" output="Ů" />
       <when state="tilde" output="Ũ" />
@@ -1208,6 +1207,7 @@
       <when state="caron" output="ǎ" />
       <when state="circumflex" output="â" />
       <when state="diaeresis" output="ä" />
+      <when state="double-acute" output="a̋" />
       <when state="grave" output="à" />
       <when state="ring" output="å" />
       <when state="tilde" output="ã" />
@@ -1221,6 +1221,7 @@
       <when state="cedilla" output="ȩ" />
       <when state="circumflex" output="ê" />
       <when state="diaeresis" output="ë" />
+      <when state="double-acute" output="e̋" />
       <when state="grave" output="è" />
     </action>
     <action id="15">
@@ -1231,6 +1232,7 @@
       <when state="caron" output="ǐ" />
       <when state="circumflex" output="î" />
       <when state="diaeresis" output="ï" />
+      <when state="double-acute" output="i̋" />
       <when state="grave" output="ì" />
       <when state="tilde" output="ĩ" />
     </action>
@@ -1251,6 +1253,7 @@
       <when state="caron" output="ǒ" />
       <when state="circumflex" output="ô" />
       <when state="diaeresis" output="ö" />
+      <when state="double-acute" output="ő" />
       <when state="grave" output="ò" />
       <when state="tilde" output="õ" />
     </action>
@@ -1262,6 +1265,7 @@
       <when state="caron" output="ǔ" />
       <when state="circumflex" output="û" />
       <when state="diaeresis" output="ü" />
+      <when state="double-acute" output="ű" />
       <when state="grave" output="ù" />
       <when state="ring" output="ů" />
       <when state="tilde" output="ũ" />
@@ -1284,6 +1288,7 @@
       <when state="cedilla" output="¸" />
       <when state="circumflex" output="ˆ" />
       <when state="diaeresis" output="¨" />
+      <when state="double-acute" output="˝" />
       <when state="grave" output="`" />
       <when state="ring" output="˚" />
       <when state="tilde" output="˜" />
@@ -1296,6 +1301,7 @@
       <when state="caron" output="Ǎ" />
       <when state="circumflex" output="Â" />
       <when state="diaeresis" output="Ä" />
+      <when state="double-acute" output="A̋" />
       <when state="grave" output="À" />
       <when state="ring" output="Å" />
       <when state="tilde" output="Ã" />
@@ -1309,6 +1315,7 @@
       <when state="cedilla" output="Ȩ" />
       <when state="circumflex" output="Ê" />
       <when state="diaeresis" output="Ë" />
+      <when state="double-acute" output="E̋" />
       <when state="grave" output="È" />
     </action>
     <action id="8">
@@ -1319,6 +1326,7 @@
       <when state="caron" output="Ǐ" />
       <when state="circumflex" output="Î" />
       <when state="diaeresis" output="Ï" />
+      <when state="double-acute" output="I̋" />
       <when state="grave" output="Ì" />
       <when state="tilde" output="Ĩ" />
     </action>
@@ -1381,6 +1389,7 @@
     <action id="M">
       <when state="none" output="M" />
       <when state="acute-2" output="Ḿ" />
+      <when state="double-acute" output="M̋" />
     </action>
     <action id="P">
       <when state="none" output="P" />
@@ -1438,7 +1447,7 @@
       <when state="grave" output="̀" />
     </action>
     <action id="action">
-      <when state="none" output="" />
+      <when state="none" output="⌥" />
     </action>
     <action id="b">
       <when state="none" output="b" />
@@ -1460,6 +1469,10 @@
       <when state="none" output="d" />
       <when state="caron" output="ď" />
       <when state="cedilla" output="ḑ" />
+    </action>
+    <action id="double-acute">
+      <when state="none" next="double-acute" />
+      <when state="double-acute" output="̋" />
     </action>
     <action id="g">
       <when state="none" output="g" />
@@ -1495,6 +1508,7 @@
     <action id="m">
       <when state="none" output="m" />
       <when state="acute-2" output="ḿ" />
+      <when state="double-acute" output="m̋" />
     </action>
     <action id="p">
       <when state="none" output="p" />
@@ -1565,6 +1579,7 @@
     <when state="cedilla" output="¸" />
     <when state="circumflex" output="ˆ" />
     <when state="diaeresis" output="¨" />
+    <when state="double-acute" output="˝" />
     <when state="grave" output="`" />
     <when state="ring" output="˚" />
     <when state="tilde" output="˜" />
